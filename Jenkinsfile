@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/nursanto/ptes-jenkins.git'
+        git 'https://github.com/nursanto/tes-jenkins.git'
       }
     }
 
