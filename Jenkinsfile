@@ -36,6 +36,10 @@ pipeline {
       }
     }
 
+    stage('cleanup') {
+      echo "doing some cleanup..."
+    }
+
   }
   environment {
     registry = '192.168.6.203:5000/myimage/myweb'
