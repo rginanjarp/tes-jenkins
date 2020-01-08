@@ -36,14 +36,6 @@ pipeline {
       }
     }
 
-    stages {
-        stage('Example') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-
   }
   environment {
     registry = '192.168.6.203:5000/myimage/myweb'
