@@ -36,8 +36,12 @@ pipeline {
       }
     }
 
-    stage('cleanup') {
-      echo "doing some cleanup..."
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 
   }
